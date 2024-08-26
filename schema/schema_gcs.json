@@ -1,0 +1,319 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "kind",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "totalItems",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "kind",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "etag",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "selfLink",
+        "type": "STRING"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "title",
+            "type": "STRING"
+          },
+          {
+            "mode": "REPEATED",
+            "name": "authors",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "publishedDate",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "description",
+            "type": "STRING"
+          },
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "type",
+                "type": "STRING"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "identifier",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "industryIdentifiers",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "text",
+                "type": "BOOLEAN"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "image",
+                "type": "BOOLEAN"
+              }
+            ],
+            "mode": "NULLABLE",
+            "name": "readingModes",
+            "type": "RECORD"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "pageCount",
+            "type": "INTEGER"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "printType",
+            "type": "STRING"
+          },
+          {
+            "mode": "REPEATED",
+            "name": "categories",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "maturityRating",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "allowAnonLogging",
+            "type": "BOOLEAN"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "contentVersion",
+            "type": "STRING"
+          },
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "containsEpubBubbles",
+                "type": "BOOLEAN"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "containsImageBubbles",
+                "type": "BOOLEAN"
+              }
+            ],
+            "mode": "NULLABLE",
+            "name": "panelizationSummary",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "smallThumbnail",
+                "type": "STRING"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "thumbnail",
+                "type": "STRING"
+              }
+            ],
+            "mode": "NULLABLE",
+            "name": "imageLinks",
+            "type": "RECORD"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "language",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "previewLink",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "infoLink",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "canonicalVolumeLink",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "publisher",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "averageRating",
+            "type": "FLOAT"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "ratingsCount",
+            "type": "INTEGER"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "subtitle",
+            "type": "STRING"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "volumeInfo",
+        "type": "RECORD"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "country",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "saleability",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "isEbook",
+            "type": "BOOLEAN"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "saleInfo",
+        "type": "RECORD"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "country",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "viewability",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "embeddable",
+            "type": "BOOLEAN"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "publicDomain",
+            "type": "BOOLEAN"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "textToSpeechPermission",
+            "type": "STRING"
+          },
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "isAvailable",
+                "type": "BOOLEAN"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "acsTokenLink",
+                "type": "STRING"
+              }
+            ],
+            "mode": "NULLABLE",
+            "name": "epub",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "isAvailable",
+                "type": "BOOLEAN"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "acsTokenLink",
+                "type": "STRING"
+              }
+            ],
+            "mode": "NULLABLE",
+            "name": "pdf",
+            "type": "RECORD"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "webReaderLink",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "accessViewStatus",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "quoteSharingAllowed",
+            "type": "BOOLEAN"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "accessInfo",
+        "type": "RECORD"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "textSnippet",
+            "type": "STRING"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "searchInfo",
+        "type": "RECORD"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "items",
+    "type": "RECORD"
+  }
+]
